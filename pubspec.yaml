@@ -1,0 +1,46 @@
+name: chitieu
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1  # Update this line to match the required version
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.69.0
+  path_provider: ^2.0.11
+  sqflite: ^2.4.1
+  path: ^1.8.0
+  animated_shimmer: ^1.0.0
+  provider: ^6.1.2
+  month_picker_dialog: ^2.0.1
+  pie_chart: ^5.0.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.14.1"
+
+flutter_launcher_icons:
+  android: true  # Thay đổi biểu tượng cho Android
+  ios: false     # Không thay đổi biểu tượng trên iOS
+  image_path: "assets/icon/icon.png"  # Đường dẫn đến ảnh biểu tượng
+
+
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+
